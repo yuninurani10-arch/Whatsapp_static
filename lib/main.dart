@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
           children: [
 
             // TAB CHAT
-            Column(
+            ListView(
               children: [
                 Card(
                   elevation: 5,
@@ -72,7 +72,135 @@ class _HomePageState extends State<HomePage> {
                     leading: Icon(
                       Icons.person,
                     ),
-                    title: Text("Yuni"),
+                    title: Text("dear"),
+                    subtitle: Text("lari gua imut"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("Raqila"),
+                    subtitle: Text("aku udh selesai"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("jesi"),
+                    subtitle: Text("help me"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("nisa"),
+                    subtitle: Text("bareng"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("andin"),
+                    subtitle: Text("yuni eskul ga?"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("karim"),
+                    subtitle: Text("tugas flutter dh blm?"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("levina"),
+                    subtitle: Text("yun aku mau nanya"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("zelita"),
+                    subtitle: Text("aku kesel ih"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("afifah"),
                     subtitle: Text("OKEE"),
                     trailing: Text(
                       "50",
@@ -82,6 +210,87 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("danu"),
+                    subtitle: Text("HEH YUNI"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("faisal"),
+                    subtitle: Text("parah"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("boru"),
+                    subtitle: Text("YUNAH"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("john"),
+                    subtitle: Text("gua blm selesai"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  elevation: 5,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                    ),
+                    title: Text("pippit"),
+                    subtitle: Text("sama-sama"),
+                    trailing: Text(
+                      "50",
+                      style: TextStyle(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ),
+
               ],
             ),
 
