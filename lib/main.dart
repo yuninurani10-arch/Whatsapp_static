@@ -49,7 +49,9 @@ class _HomePageState extends State<HomePage> {
             // TAB CHAT
             ListView(
               children: [
-                Card(
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: Card(
                   elevation: 5,
                   child: ListTile(
                     leading: Icon(
@@ -65,7 +67,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
 
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -82,6 +88,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -98,6 +109,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -114,6 +130,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+                
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -130,6 +151,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -146,6 +172,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -162,6 +193,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -178,6 +214,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -194,6 +235,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -210,6 +256,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -226,6 +277,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -242,6 +298,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -258,6 +319,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -274,6 +340,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                ),
+
+                Padding(
+                padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: 
                 Card(
                   elevation: 5,
                   child: ListTile(
@@ -290,48 +361,88 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-
+                ),
               ],
             ),
 
-            // TAB STATUS
-            Card(
-              elevation: 5,
-              child: ListTile(
-                leading: Icon(
-                  Icons.person,
-                ),
-                title: Text("Status saya"),
-                subtitle: Text(
-                  "ketuk untuk menambahkan status",
-                ),
-                trailing: Icon(
-                  Icons.add_circle,
-                  color: Colors.green,
-                ),
+    // TAB STATUS
+    Padding(
+      padding: EdgeInsets.only(left: 30, right: 30),
+      child: ListView(
+        children: [
+          Card(
+            elevation: 5,
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text("Status saya"),
+              subtitle: Text("ketuk untuk menambahkan status"),
+              trailing: Icon(
+                Icons.add_circle,
+                color: Colors.green,
               ),
             ),
+          ),
 
-            // TAB PANGGILAN
-            Card(
-              elevation: 5,
-              child: ListTile(
-                leading: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Icon(Icons.person),
-                    Icon(Icons.call_received),
-                  ],
-                ),
-                title: Text("Ari"),
-                subtitle: Text("23.00"),
-                trailing: Icon(
-                  Icons.call,
-                  color: Colors.green,
-                ),
+          Card(
+            elevation: 5,
+            child: ListTile(
+              leading: CircleAvatar(
+                child: Icon(Icons.person),
+              ),
+              title: Text("Ari"),
+              subtitle: Text("Baru saja"),
+            ),
+          ),
+        ],
+      ),
+    ),
+
+    // TAB PANGGILAN
+    Padding(
+      padding: EdgeInsets.only(left: 30, right: 30),
+      child: ListView(
+        children: [
+          Card(
+            elevation: 5,
+            child: ListTile(
+              leading: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.person),
+                  Icon(Icons.call_received),
+                ],
+              ),
+              title: Text("Ari"),
+              subtitle: Text("23.00"),
+              trailing: Icon(
+                Icons.call,
+                color: Colors.green,
               ),
             ),
-          ],
+          ),
+
+          Card(
+            elevation: 5,
+            child: ListTile(
+              leading: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.person),
+                  Icon(Icons.call_received),
+                ],
+              ),
+              title: Text("Budi"),
+              subtitle: Text("22.30"),
+              trailing: Icon(
+                Icons.call,
+                color: Colors.green,
+                                  ),
+            ),
+          ),
+        ],
+      ),
+    ),
+  ],
         ),
       ),
     );
